@@ -1,13 +1,67 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
+
 <body>
-    <h1 align = "center"> Leonardo Rosero </h1> 
-    <p align = center> Hola soy <Strong> LeRo </Strong> </p>
+    <h1 align="center"> LEONARDO ROSERO </h1>
+    <p align=center> Hola soy <Strong> LeRo </Strong> </p>
+    <br> <!-- Inserta una linea en blanco -->
+
+    <h2 align left> Aptitudes Personales</h2>
+    <ul type="circle">
+        <h4>
+            <li>Resolucion de problemas</li>
+            <li>Creatividad</li>
+            <li>Respeto</li>
+            <li>Flexibilidad</li>
+            </h3>
+    </ul>
+
+    <h2>
+        <p>Tecnologias</p>
+        <h4>
+            <ol type="1">
+                <li>Java</li>
+                <li>MySQL</li>
+                <li>JPA</li>
+            </ol>
+        </h4>
+    </h2>
+    <p>Enlace externo</p>
+    <a href="https://www.linkedin.com/feed/">
+        <h3>
+            <li>LinkedIn Personal</li>
+        </h3>
+    </a>
+
+    <form action="ruta del método que va a manejar la información" method="POST"
+enctype="multipart/form-data"></form> 
+        <label>Nombre del usuario</label> <br> 
+        <input type="text" name="nombre"> <br>
+        <label>Edad del usuario</label> <br>
+        <input type="number" name="edad "> <br>
+        <label>Fecha de nacimiento del usuario</label> <br>
+        <input type="date” name="fechanac"> <br>
+        <label>Sexo del usuario</label> <br>
+        <input type="radio" name="sexo" value="Hombre"> Hombre <br>
+        <input type="radio" name="sexo" value="Mujer"> Mujer <br>
+        <label>País nacimiento del usuario</label> <br>
+        <select name="pais"> 
+            <option>Argentina</option> 
+            <option>Brasil</option> 
+            <option>Chile</option> 
+            <option>Uruguay</option> 
+        </select>
+        <br>
+<button	type="submit">Enviar</button>
+<button	type="reset">Borrar</button>
+
 </body>
+
 </html>
