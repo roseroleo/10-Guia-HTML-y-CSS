@@ -1,0 +1,52 @@
+#titulo {
+    color: cadetblue;
+}
+.destacado{
+    color:gold;
+}
+#subtitulo{
+    color: blue;
+}
+a:link{
+    color: red;
+}
+em{
+    color: blue;
+}
+.especial{
+    color: purple;
+}
+#adicional{
+    color:olive;
+}
+caption {
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    font-style: italic;
+    font-weight: bold;
+}
+table{
+    border-collapse:collapse;
+    border: 1px solid black;
+}
+ table,th,td {
+    border: 1px solid black;
+}
+:scope .especial{
+    color: gold;
+}
+:scope th{
+    color: red;
+}
+:scope td{
+    color: green;
+}
+em{
+    color: gold;
+}
+span{
+    color: purple;
+}
+a{
+    color:green;
+}
