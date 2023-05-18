@@ -1,0 +1,16 @@
+body {
+    background-color: white;
+}
+/* link sin visitar*/
+a:link {
+    
+    color:red
+}
+
+a:hover {
+    background-color: aqua;
+    color: green;
+}
+a:visited {
+    color:gray
+}
