@@ -1,0 +1,28 @@
+h1{
+    text-align: center;
+    color: blue;
+}
+table,th,td{
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    border: 1px solid black
+}
+:scope .gris{
+    background-color: gray;
+}
+:scope .cielo{
+    text-align: left;
+    background-color:	#E6F3FF;
+}
+:scope .blanco{
+    text-align: left;
+    background-color:	white;
+}
+:scope .ama{
+    background-color: yellow;
+}
+img{
+    max-width:5% ;
+    max-height: 5%;
+    vertical-align: top;
+}
