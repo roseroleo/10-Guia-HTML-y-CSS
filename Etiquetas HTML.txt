@@ -1,4 +1,23 @@
-https://www.mclibre.org/consultar/htmlcss/html/html-etiquetas.html
+<!DOCTYPE html>: Define el tipo de documento HTML.
+<html>: Define un documento HTML.
+<head>: Contiene información sobre el documento HTML.
+<title>: Define el título del documento HTML.
+<body>: Define el cuerpo del documento HTML.
+<h1> hasta <h6>: Define encabezados de sección.
+<p>: Define un párrafo.
+<br>: Inserta un salto de línea.
+<hr>: Define una línea horizontal.
+<a href="url">texto</a>: Define un hipervínculo.
+<img src="url" alt="texto">: Define una imagen.
+<ul>: Define una lista sin ordenar.
+<ol>: Define una lista ordenada.
+<li>: Define un elemento de lista.
+<table>: Define una tabla.
+<tr>: Define una fila de tabla.
+<th>: Define una celda de encabezado de tabla.
+<td>: Define una celda de tabla.
+
+
 
 
 <!-- a (enlace) -->
